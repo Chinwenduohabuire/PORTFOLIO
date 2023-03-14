@@ -1,0 +1,167 @@
+.split {
+    height: 100%;
+    width: 80%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  /* Control the left side */
+  .left {
+    left: 0;
+    background-color: #fdb932;
+  }
+  
+  /* Control the right side */
+  .right {
+    right: 0;
+    background-color: #cfcfcf;
+  }
+  
+  /* If you want the content centered horizontally and vertically */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .centered img {
+    max-width: 300px;
+    margin-right: 820px;
+    margin-bottom: 510px;
+}  
+
+.left_link {
+    margin-top: 270px;
+    margin-right: 860px;
+}
+
+.left_link ul li {
+    list-style: none;
+    text-align: center;
+}
+
+.left_link ul li a {
+    text-decoration: none;
+}
+
+.about_me h1 {
+    font-size: 80px;
+    font-family: sans-serif;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 20px;
+    border: 1px solid black;
+    padding: 20px;
+} 
+
+#about_move {
+    margin-left: 180px;
+} 
+
+.mid_info {
+    margin-left: 120px;
+    margin-top: -30px;
+}
+
+.mid_info1 {
+    font-size: 30px;
+}
+
+.mid_info1 p {
+    font-weight: lighter;
+}
+
+.mid_info2 {
+    text-align: left;
+    margin-top: -20px;
+}
+
+.contact_list {
+    float: right;
+    margin-top: -80px;
+    margin-right: 25px;
+    background-color: #fdb932;
+    border-radius: 40px;
+}
+.contact_list ul li {
+    list-style-type: none;
+    border-radius: 20px;
+    background-color: #fdb932;
+}
+
+.contact_list ul li a {
+    text-decoration: none;
+}
+
+.contact_list ul li a img {
+    max-width: 20px;
+    margin-right: 30px;
+    margin-top: 8px;
+}
+
+.master {
+    margin-top: -70px;
+    margin-left: -50px;
+}
+
+.four_divs {
+    padding: 50px 50px 50px 50px;
+}
+
+.four_divs1 {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 30px 30px 30px 30px;
+    vertical-align: middle;
+    width: 300px;
+    height: 180px;
+    text-align: center;
+    margin-right: 15px;
+    background-color: black;
+    color: #fdb932;
+}
+
+.name {
+    margin-right: 60px;
+}
+
+.name1 {
+    margin-right: 79px;
+}
+
+.four_divs2 {
+    padding: 0px 50px 50px 50px;
+    margin-top: -30px;
+}
+
+.job1 {
+    margin-right: 50px;
+    font-size: 15px;
+}
+
+.job2 {
+    margin-right: 80px;
+    font-size: 15px;
+}
+
+.job3 {
+    margin-right: 100px;
+    font-size: 15px;
+}
+
+.work {
+    float: right;
+    margin-top: -280px;
+    margin-right: 270px;
+}
+
+img {
+    max-width: 120px;
+    max-height: 280px;
+    float: left;
+}
